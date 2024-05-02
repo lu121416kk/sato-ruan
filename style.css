@@ -1,0 +1,437 @@
+/*Ronas*/
+
+.title_{
+	font-family: "Montserrat", sans-serif!important;
+	color: #FFD223;
+}
+.title_ {
+	font-family: "Lexend", sans-serif;
+ 	 font-optical-sizing: auto;
+  	font-weight: weight;
+  	font-style: normal;
+	font-size: 300%;
+	margin-top: 3%;
+	margin-bottom: 4%;
+	/*float: center;*/
+	display: flex;
+	justify-content: center;
+	
+}
+
+.container{
+	margin-left: 1;
+	display: flex;
+	float: center;
+	font-size: 100%;
+	
+}
+
+p2{
+
+	margin-left: 2%;
+	padding: 10px;
+	background-color: rgba(113, 175, 219, 0.5);
+	color: #fff;
+	border-radius: 15px;
+	width: 80%;
+	backdrop-filter: blur(4px);
+}
+
+.img1{
+	width: 40%;
+	height: 550px;
+	float: left;
+	
+}
+
+.img2{
+	width: 30%;
+	height: 300px;
+	margin-left: 1%;
+	margin-top: 2.5%;
+	display: flex;
+	float: center;
+
+}
+
+
+.texto{
+	padding: 10px;
+	background-color: rgba(113, 175, 219, 0.5);
+	color: #fff;
+	background-size: 30%;
+	border-radius: 15px;
+	width: 50%;
+	backdrop-filter: blur(4px);
+	margin-left: 10%;
+}
+
+.texto1{
+	padding: 10px;
+	padding-left: 40px;
+	background-color: rgba(113, 175, 219, 0.5);
+	color: #fff;
+	background-size: 30%;
+	border-radius: 15px;
+	width: 50%;
+	backdrop-filter: blur(4px);
+	margin-left: 25%;
+}
+
+.player2{
+	margin-top: 5%;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	flex-direction: column;
+	background-image: url("img/carta2.svg");
+	background-size: 200%;
+	background-position-x: center;
+	background-position-y: center;
+	color: #036fd1;
+}
+
+.inline{
+	display: flex;
+}
+
+/*Satástico*/
+
+body{
+	transition: background 1s;
+}
+
+footer{
+    background-image: url("img/background.jpg") !important;
+	background-position-x: 50%;
+	background-position-y: 0%;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-top: 7%;
+}
+
+.box{
+	display: flex;
+}
+
+.galeria{
+	display: inline-block;
+}
+
+.img{
+	width: 100vh;
+	height: 130%;
+}
+
+/*SoundTrack*/
+
+.img_player{
+	display: flex;
+  	justify-content: center;
+}
+
+.img_musica{
+	width: 35%;
+	height: 15%;
+	margin-right: 25%;
+}
+
+.player{
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url("img/carta2.svg");
+	background-size: 35%;
+	color: #036fd1;
+}
+
+.descricao{
+	font-size: 150%;
+	margin-left: 10%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+    width: 15em
+}
+
+.duracao{
+	width: 300px;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+
+.barra{
+	width: 190px;
+	height: 10px;
+	margin-bottom: 5%;
+	border: 2px solid #036fd1;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+progress{
+	height: 18px;
+	width: 0%;
+}
+
+.ponto{
+	height: 20px;
+	width: 20px;
+	background-color: #036fd1;
+	border-radius: 50%;
+	margin-left: -3%;
+}
+
+i{
+	color: #000;
+	font-size: 75% !important;
+}
+
+.tempo{
+	display: flex;
+	width: 63%;
+	justify-content: space-between;
+	color: #036fd1;
+	margin-top: 11%;
+}
+
+.botao-play{
+	font-size: 40%;
+	cursor: pointer;
+}
+
+.botao-pause{
+	display: none;
+	cursor: pointer;
+	justify-content: space-between;
+}
+
+.proximo{
+	cursor: pointer;
+	display: inline-block;
+}
+
+.anterior{
+	cursor: pointer;
+	display: inline-block;
+}
+
+.icons{
+	margin-top: 1%;
+	margin-bottom: -5%;
+}
+
+/*Eastereggs*/
+
+.easteregg-vaca{
+	background-color: transparent;
+	margin-right: 60%;
+	margin-top: 4%;
+	color: transparent;
+	width: 10%;
+	height: 1%;
+}
+
+.easteregg-vaca h1{
+	margin-top: 30%;
+	margin-left: 20%;
+	width: 30%;
+}
+
+.easteregg-vaca:hover{
+	background-color: transparent;
+}
+
+.easteregg-stardrop{
+	background-color: transparent;
+	margin-right: 5%;
+	padding-left: 20%;
+	margin-top: 8%;
+	color: transparent;
+	width: 10%;
+	height: 1%;
+}
+
+.easteregg-stardrop h1{
+	margin-top: 30%;
+	margin-left: 20%;
+	width: 30%;
+}
+
+.easteregg-stardrop:hover{
+	background-color: transparent;
+}
+
+.hover-jogar:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 23%;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.hover-home:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 32%;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.hover-sobre:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position-x: 40%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.hover-galeria:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 27%;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.hover-soundtrack:hover{
+	background-image: url("img/junimo.gif");
+	background-size: 19%;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: top;
+	transition: 1s;
+}
+
+.eastereeg1:active{
+	background-image: url("img/galinha-azul.gif");
+	background-size: 1.5%;
+	background-repeat: no-repeat;
+	background-position-x: 5%;
+	background-position-y: 100%;
+}
+
+.junimo{
+	margin-left: 1450%;
+	margin-top: 5%;
+	width: 60%;
+}
+
+.dark{
+	background-color: #000;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 1500px){
+	.img{
+		width: 90vw;
+		margin: 5%;
+	}	
+
+	.player{
+		background-size: 200%;
+		background-repeat: no-repeat;
+		background-position-y: 50%;
+		background-position-x: 50%;
+		margin: 5%;
+	}
+}
+
+@media screen and (max-width: 1050px){
+	.icons{
+		margin-bottom: 4%;
+		margin-top: 0%;
+	}
+
+	.tempo{
+		margin-top: -4%;
+		margin-bottom: -7%;
+		width: 43%;
+		font-size: 70%;
+	}
+
+	.duracao{
+		margin-left: 44%;
+	}
+
+	.barra{
+		height: 9px;
+		width: 40%;
+		margin-left: 5%;
+	}
+
+	progress{
+		height: 9px;
+	}
+
+	.descricao{
+		font-size: 80%;
+	}t
+
+	.img_player{
+		width: 60%;
+	}
+
+	.player{
+		background-image: url("img/carta4.svg");
+		background-size: 260%;
+		background-position-x: 63%;
+		background-position-y: 90%;
+	}
+}
+
+@media screen and (min-width: 1571px) {
+	.player{
+		background-image: url("img/carta2.svg");
+		background-repeat: no-repeat;
+		background-size: 150%;
+		background-position: center;
+		margin-top: 7%;
+	}
+
+	.duracao{
+		margin-top: 0%;
+	}
+
+	.descricao{
+		margin-left: 7%;
+	}
+
+	.barra{
+		margin-left: -10%;
+	}
+
+	.tempo{
+		margin-left: -10%;
+	}
+
+	.junimo{
+		margin-left: 2050%;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.junimo{
+		margin-left: 2800%;
+	}
+
+	.galeria{
+		margin-right: 7%;
+	}
+}
