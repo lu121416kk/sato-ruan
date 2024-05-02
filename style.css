@@ -420,6 +420,10 @@ i{
 		content: url("img/carrosel-mobile3.webp")
 	}
 
+	.responsive{
+		--bs-navbar-padding-y: 5% !important;
+	}
+	
 	.tempo{
 		margin-top: -4%;
 		margin-bottom: -7%;
