@@ -423,7 +423,7 @@ i{
 	.responsive{
 		--bs-navbar-padding-y: 5% !important;
 	}
-	
+
 	.tempo{
 		margin-top: -4%;
 		margin-bottom: -7%;
@@ -433,6 +433,11 @@ i{
 
 	.duracao{
 		margin-left: 44%;
+		margin-top: -10%;
+	}
+
+	.icons{
+		margin-top: 10%;
 	}
 
 	.barra{
@@ -455,9 +460,11 @@ i{
 
 	.player{
 		background-image: url("img/carta4.svg");
-		background-size: 260%;
+		background-size: 400%;
 		background-position-x: 63%;
-		background-position-y: 90%;
+		background-position-y: 50%;
+		margin-top: 17%;
+		margin-bottom: 25%;
 	}
 }
 
