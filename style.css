@@ -93,6 +93,9 @@ p2{
 
 .inline{
 	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 10%;
+	margin-left: -15%;
 }
 
 /*Satástico*/
@@ -336,6 +339,10 @@ i{
 	background-color: #000;
 }
 
+#mobile{
+	content: url("img/carrosel1.webp");
+}
+
 /*Responsividade*/
 
 @media screen and (max-width: 1500px){
@@ -354,9 +361,63 @@ i{
 }
 
 @media screen and (max-width: 1050px){
+	.title_{
+		font-size: 200%;
+		margin: 5%;
+		margin-left: 1%;
+	}
+
+	.img1{
+		width: 100vw;
+		height: 40vh;
+		margin-left: -3%;
+	}
+
+	.img2{
+		width: 100vw;
+		height: 30vh;
+		margin-left: -3%;
+		margin-bottom: 5%;
+	}
+
+	.container{
+		flex-direction: column;
+	}
+
+	.inline{
+		flex-direction: column;
+		margin-right: -0.1%;
+		margin-left: 1%;
+	}
+
+	.texto{
+		width: 102%;
+		margin-left: -3%;
+	}
+
 	.icons{
 		margin-bottom: 4%;
 		margin-top: 0%;
+	}
+
+	.totem{
+		width: 10%;
+	}
+
+	.tamanho{
+		width: 150%;
+	}
+
+	#mobile {
+		content: url("img/carrosel-mobile.png")
+	}
+
+	#mobile2 {
+		content: url("img/carrosel-mobile2.png")
+	}
+
+	#mobile3 {
+		content: url("img/carrosel-mobile3.webp")
 	}
 
 	.tempo{
